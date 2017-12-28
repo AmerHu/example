@@ -72,8 +72,7 @@ class PostsController extends Controller
         return redirect('/');
     }
 
-    public
-    function store(Request $request)
+    public function store(Request $request)
     {
         $this->validate(
             request(), [
